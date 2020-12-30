@@ -52,6 +52,8 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/bulma/css/bulma.css",
+              "./node_modules/eva-icons/style/eva-icons.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -106,5 +108,8 @@
       }
     }
   },
-  "defaultProject": "todo-mvc"
+  "defaultProject": "todo-mvc",
+  "cli": {
+    "analytics": false
+  }
 }
